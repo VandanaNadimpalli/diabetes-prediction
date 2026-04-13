@@ -161,7 +161,7 @@ test_pred = model.predict(X_test)
 test_acc = accuracy_score(y_test, test_pred)
 print(f"📊 Testing Accuracy: {test_acc:.2%}")
 
-# Detailed performance report
+# Detailed performance reportdiaabates
 print("\n📋 Detailed Performance:")
 print(classification_report(y_test, test_pred, 
                           target_names=['No Diabetes', 'Diabetes']))
